@@ -64,6 +64,7 @@ const getAllTotalResponses = async (req, res) => {
     "ACT",
     "BSCS",
     "BSED",
+    "BEED",
     "BSSW",
     "BSPOLSCIE",
     "BSCRIM",
