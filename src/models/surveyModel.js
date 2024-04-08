@@ -13,6 +13,14 @@ const Survey = sequelize.define(
       type: DataTypes.STRING(250),
       allowNull: false,
     },
+    email: {
+      type: DataTypes.STRING(250),
+      allowNull: false,
+    },
+    age: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
     course: {
       type: DataTypes.STRING(250),
       allowNull: false,
