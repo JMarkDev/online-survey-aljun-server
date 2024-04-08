@@ -25,6 +25,10 @@ const Survey = sequelize.define(
       type: DataTypes.STRING(250),
       allowNull: false,
     },
+    year_level: {
+      type: DataTypes.STRING(50),
+      allowNull: false,
+    },
     gender: {
       type: DataTypes.STRING(50),
       allowNull: false,

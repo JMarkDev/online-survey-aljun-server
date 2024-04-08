@@ -7,7 +7,8 @@ const surveyValidationRules = () => {
     body("course").notEmpty().withMessage("Course is required."),
     body("gender").notEmpty().withMessage("Gender is required."),
     body("year_level").notEmpty().withMessage("Year level is required."),
-    body("answers").notEmpty().withMessage("This field is required."),
+    body("answers").notEmpty().withMessage("A field is required."),
+    body("age").notEmpty().withMessage("Age is required."),
   ];
 };
 
