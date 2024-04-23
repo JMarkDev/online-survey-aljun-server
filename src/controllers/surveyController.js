@@ -72,7 +72,6 @@ const getAllTotalResponses = async (req, res) => {
     "BSSW",
     "BSPOLSCIE",
     "BSCRIM",
-    "AB FIL",
   ];
   const months = [
     "Jan",
